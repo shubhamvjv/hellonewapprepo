@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hellonewapp"
+  description: "djdjdj"
+  annotations:
+    github.com/project-slug: "shubhamvjv/hellonewapprepo"
+spec:
+  type: website
+  owner: "group:default/guests"
+  lifecycle: experimental
